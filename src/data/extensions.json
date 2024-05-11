@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Grammarly",
+    "description": "Improve your writing with Grammarly's AI-powered grammar checker and writing assistant.",
+    "category": "Productivity",
+    "download_link": "https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen"
+  },
+  {
+    "id": 2,
+    "name": "LastPass",
+    "description": "Securely store passwords and access them from anywhere with LastPass password manager.",
+    "category": "Security",
+    "download_link": "https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd"
+  },
+  {
+    "id": 3,
+    "name": "Adblock Plus",
+    "description": "Block annoying ads and pop-ups for a cleaner browsing experience with Adblock Plus.",
+    "category": "Utility",
+    "download_link": "https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb"
+  },
+  {
+    "id": 4,
+    "name": "Pocket",
+    "description": "Save articles, videos, and web pages to read later with Pocket's convenient bookmarking feature.",
+    "category": "Productivity",
+    "download_link": "https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj"
+  },
+  {
+    "id": 5,
+    "name": "Dark Reader",
+    "description": "Enable dark mode on websites to reduce eye strain and improve readability with Dark Reader extension.",
+    "category": "Utility",
+    "download_link": "https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh"
+  },
+  {
+    "id": 6,
+    "name": "Honey",
+    "description": "Automatically find and apply coupon codes at checkout to save money while shopping online with Honey extension.",
+    "category": "Shopping",
+    "download_link": "https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj"
+  },
+  {
+    "id": 7,
+    "name": "Bitwarden",
+    "description": "Store and manage passwords securely with Bitwarden password manager extension.",
+    "category": "Security",
+    "download_link": "https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb"
+  },
+  {
+    "id": 8,
+    "name": "Todoist",
+    "description": "Organize tasks and manage your to-do lists efficiently with Todoist task manager extension.",
+    "category": "Productivity",
+    "download_link": "https://chrome.google.com/webstore/detail/todoist-to-do-list-and-ta/jldhpllghnbhlbpcmnajkpdmadaolakh"
+  },
+  {
+    "id": 9,
+    "name": "The Great Suspender",
+    "description": "Automatically suspend inactive tabs to save memory and improve browser performance with The Great Suspender extension.",
+    "category": "Utility",
+    "download_link": "https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg"
+  },
+  {
+    "id": 10,
+    "name": "Evernote Web Clipper",
+    "description": "Clip web pages, save articles, and capture content for easy organization in Evernote with the Web Clipper extension.",
+    "category": "Productivity",
+    "download_link": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc"
+  }
+]
