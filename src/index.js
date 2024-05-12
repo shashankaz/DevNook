@@ -11,6 +11,8 @@ import Extensions from "./components/pages/Extensions";
 import Blogs from "./components/pages/Blogs";
 import Contact from "./components/pages/Contact";
 import Privacy from "./components/pages/Privacy";
+import Terms from "./components/pages/Terms";
+import Copyright from "./components/pages/Copyright";
 import NotFound from "./components/pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -26,6 +28,8 @@ root.render(
         <Route path="/blog" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/copyright" element={<Copyright />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
