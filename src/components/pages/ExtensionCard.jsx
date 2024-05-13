@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ExtensionCard = (props) => {
   return (
-    <div className="flex flex-col md:flex-row justify-between p-6 my-6 bg-gray-100 hover:bg-gray-200 rounded-[20px]">
+    <div className="flex flex-col md:flex-row justify-between p-6 my-6 bg-gray-100 rounded-[20px]">
       <div className="flex gap-4">
         <div className="min-h-[150px] min-w-[250px] md:block hidden bg-red-300 rounded-[20px]"></div>
         <div className="flex flex-col items-start">

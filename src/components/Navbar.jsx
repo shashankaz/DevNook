@@ -41,7 +41,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div className="md:hidden text-2xl block">
+      <div className="md:hidden text-2xl block" onClick={handleShowNavbar}>
         <RxHamburgerMenu />
       </div>
     </div>

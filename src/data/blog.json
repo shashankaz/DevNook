@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "10 Must-Have Chrome Extensions for Productivity",
+    "description": "Discover the top 10 Chrome extensions that can supercharge your productivity and streamline your workflow.",
+    "date": "2024-05-20",
+    "category": "Productivity",
+    "image": "https://example.com/blog-images/productivity-chrome-extensions.jpg",
+    "slug": "10-must-have-chrome-extensions-for-productivity"
+  },
+  {
+    "id": 2,
+    "title": "The Future of Browser Security: Trends and Technologies",
+    "description": "Explore the latest trends and technologies shaping the future of browser security and how to stay protected online.",
+    "date": "2024-05-15",
+    "category": "Security",
+    "image": "https://example.com/blog-images/browser-security-trends.jpg",
+    "slug": "the-future-of-browser-security-trends-and-technologies"
+  },
+  {
+    "id": 3,
+    "title": "Mastering Chrome DevTools: Tips and Tricks for Developers",
+    "description": "Learn advanced techniques and shortcuts in Chrome DevTools to enhance your web development skills.",
+    "date": "2024-05-10",
+    "category": "Development",
+    "image": "https://example.com/blog-images/chrome-devtools-tips.jpg",
+    "slug": "mastering-chrome-devtools-tips-and-tricks-for-developers"
+  },
+  {
+    "id": 4,
+    "title": "Boost Your Online Privacy: Essential Tips and Tools",
+    "description": "Discover effective strategies and tools to enhance your online privacy and protect your personal information.",
+    "date": "2024-05-05",
+    "category": "Privacy",
+    "image": "https://example.com/blog-images/online-privacy-tips.jpg",
+    "slug": "boost-your-online-privacy-essential-tips-and-tools"
+  },
+  {
+    "id": 5,
+    "title": "The Power of Browser Extensions: How They Enhance Your Web Experience",
+    "description": "Explore the benefits and capabilities of browser extensions and how they can transform your browsing experience.",
+    "date": "2024-04-30",
+    "category": "Browsers",
+    "image": "https://example.com/blog-images/browser-extensions-power.jpg",
+    "slug": "the-power-of-browser-extensions-how-they-enhance-your-web-experience"
+  },
+  {
+    "id": 6,
+    "title": "Effective Time Management Techniques for Remote Work",
+    "description": "Learn practical time management strategies to boost productivity and maintain work-life balance while working remotely.",
+    "date": "2024-04-25",
+    "category": "Productivity",
+    "image": "https://example.com/blog-images/remote-work-time-management.jpg",
+    "slug": "effective-time-management-techniques-for-remote-work"
+  },
+  {
+    "id": 7,
+    "title": "The Rise of Progressive Web Apps: Benefits and Best Practices",
+    "description": "Discover the advantages of Progressive Web Apps (PWAs) and best practices for developing and implementing them.",
+    "date": "2024-04-20",
+    "category": "Web Development",
+    "image": "https://example.com/blog-images/progressive-web-apps.jpg",
+    "slug": "the-rise-of-progressive-web-apps-benefits-and-best-practices"
+  },
+  {
+    "id": 8,
+    "title": "Navigating the World of Web Accessibility: Tips for Inclusive Design",
+    "description": "Learn essential tips and guidelines for creating accessible websites and ensuring a positive user experience for all users.",
+    "date": "2024-04-15",
+    "category": "Accessibility",
+    "image": "https://example.com/blog-images/web-accessibility-tips.jpg",
+    "slug": "navigating-the-world-of-web-accessibility-tips-for-inclusive-design"
+  },
+  {
+    "id": 9,
+    "title": "Effective SEO Strategies for Small Businesses: Boost Your Online Visibility",
+    "description": "Discover proven SEO strategies and tactics to improve your website's search engine ranking and attract more organic traffic.",
+    "date": "2024-04-10",
+    "category": "SEO",
+    "image": "https://example.com/blog-images/seo-strategies-small-businesses.jpg",
+    "slug": "effective-seo-strategies-for-small-businesses-boost-your-online-visibility"
+  },
+  {
+    "id": 10,
+    "title": "The Art of Responsive Design: Creating Seamless User Experiences",
+    "description": "Learn key principles and techniques for designing responsive websites that adapt seamlessly to different devices and screen sizes.",
+    "date": "2024-04-05",
+    "category": "Web Design",
+    "image": "https://example.com/blog-images/responsive-design-art.jpg",
+    "slug": "the-art-of-responsive-design-creating-seamless-user-experiences"
+  }
+]
