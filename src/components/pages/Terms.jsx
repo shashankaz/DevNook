@@ -8,6 +8,9 @@ const Terms = () => {
           Terms of Service
         </h1>
       </div>
+      <div className="flex flex-col gap-3 md:text-xl text-lg my-6">
+        <h3 className="md:text-2xl text-xl">Will be Updated Soon</h3>
+      </div>
     </div>
   );
 };

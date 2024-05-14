@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Privacy = () => {
   return (
@@ -6,13 +7,15 @@ const Privacy = () => {
       <div>
         <h1 className="md:text-3xl text-2xl font-[600] pb-3">Privacy Policy</h1>
       </div>
-      <div>
+      <div className="flex flex-col gap-3 md:text-xl text-lg my-6">
         <p>
           This Privacy Policy describes how DevNook ("we", "us", or "our")
           collects, uses, and shares personal information when you use our
           website and any associated services.
         </p>
-        <h1 className="md:text-xl text-lg font-[400] py-3">Information We Collect</h1>
+        <h1 className="md:text-2xl text-xl font-[500]">
+          Information We Collect
+        </h1>
         <ul className="list-disc pl-8">
           <li>
             Personal Information: When you visit our website or use our
@@ -31,7 +34,9 @@ const Privacy = () => {
             content and ads.
           </li>
         </ul>
-        <h1 className="md:text-xl text-lg font-[400] py-3">How We Use Your Information</h1>
+        <h1 className="md:text-2xl text-xl font-[500]">
+          How We Use Your Information
+        </h1>
         <ul className="list-disc pl-8">
           <li>
             We use the information we collect to provide and improve our
@@ -42,7 +47,7 @@ const Privacy = () => {
             advertising purposes.
           </li>
         </ul>
-        <h1 className="md:text-xl text-lg font-[400] py-3">Information Sharing</h1>
+        <h1 className="md:text-2xl text-xl font-[500]">Information Sharing</h1>
         <ul className="list-disc pl-8">
           <li>
             We do not sell or rent your personal information to third parties.
@@ -52,14 +57,14 @@ const Privacy = () => {
             assist us in operating our website and providing services to you.
           </li>
         </ul>
-        <h1 className="md:text-xl text-lg font-[400] py-3">Data Security</h1>
+        <h1 className="md:text-2xl text-xl font-[500]">Data Security</h1>
         <ul className="list-disc pl-8">
           <li>
             We implement security measures to protect your personal information
             and prevent unauthorized access or disclosure.
           </li>
         </ul>
-        <h1 className="md:text-xl text-lg font-[400] py-3">Your Choices</h1>
+        <h1 className="md:text-2xl text-xl font-[500]">Your Choices</h1>
         <ul className="list-disc pl-8">
           <li>
             You can choose to disable cookies or opt-out of targeted
@@ -69,24 +74,27 @@ const Privacy = () => {
             You may update or delete your personal information by contacting us.
           </li>
         </ul>
-        <h1 className="md:text-xl text-lg font-[400] py-3">Third-Party Links</h1>
+        <h1 className="md:text-2xl text-xl font-[500]">Third-Party Links</h1>
         <ul className="list-disc pl-8">
           <li>
             Our website may contain links to third-party websites. We are not
             responsible for the privacy practices or content of these websites.
           </li>
         </ul>
-        <h1 className="md:text-xl text-lg font-[400] py-3">Updates to Privacy Policy</h1>
+        <h1 className="md:text-2xl text-xl font-[500]">
+          Updates to Privacy Policy
+        </h1>
         <ul className="list-disc pl-8">
           <li>
             We may update this Privacy Policy from time to time. We will notify
             you of any significant changes.
           </li>
         </ul>
-        <h1 className="md:text-xl text-lg font-[400] py-3">Contact Us</h1>
+        <h1 className="md:text-2xl text-xl font-[500]">Contact Us</h1>
         <p>
           If you have any questions or concerns about our Privacy Policy, please
-          contact us at info@devnook.com.
+          contact us at
+          <Link to="mailto:info@devnook.com"> info@devnook.com</Link>.
         </p>
       </div>
     </div>
