@@ -1,4 +1,7 @@
 import React, { useRef, useState } from "react";
+import SlideMain from "./SlideMain";
+import Slide from "./Slide";
+import extensions from "../../data/extensions.json";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,35 +15,18 @@ const Hero = () => {
     <div className="md:px-[100px] px-[30px] py-6 pt-[100px]">
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <div className="w-full h-[400px] rounded-[50px] bg-red-300 flex items-center justify-center">
-            <h4>Slide 1</h4>
-          </div>
+          <SlideMain />
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-[400px] rounded-[50px] bg-red-300 flex items-center justify-center">
-            <h4>Slide 2</h4>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-[400px] rounded-[50px] bg-red-300 flex items-center justify-center">
-            <h4>Slide 3</h4>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-[400px] rounded-[50px] bg-red-300 flex items-center justify-center">
-            <h4>Slide 4</h4>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-[400px] rounded-[50px] bg-red-300 flex items-center justify-center">
-            <h4>Slide 5</h4>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-[400px] rounded-[50px] bg-red-300 flex items-center justify-center">
-            <h4>Slide 6</h4>
-          </div>
-        </SwiperSlide>
+        {extensions.map((extension) => (
+          <SwiperSlide>
+            <Slide
+              title={extension.name}
+              desc={extension.description}
+              download={extension.download_link}
+              bgColor={extension.background_color}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

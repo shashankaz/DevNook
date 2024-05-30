@@ -15,6 +15,7 @@ import Terms from "./components/pages/Terms";
 import Copyright from "./components/pages/Copyright";
 import NotFound from "./components/pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
+import { Analytics } from "@vercel/analytics/react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,6 +35,7 @@ root.render(
       </Routes>
       <Footer />
       <ScrollToTop />
+      <Analytics />
     </BrowserRouter>
   </React.StrictMode>
 );
